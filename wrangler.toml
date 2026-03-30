@@ -1,0 +1,11 @@
+name = "grender-server"
+main = "src/index.ts"
+compatibility_date = "2026-03-29"
+
+[[durable_objects.bindings]]
+name = "ROOMS"
+class_name = "RoomDurableObject"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RoomDurableObject"]
