@@ -3,10 +3,6 @@
 `grender-server` is a Cloudflare Workers backend for `grender-client`.
 It receives position updates from the Fabric client mod, stores the latest player state per room in a Durable Object, returns room snapshots to clients, and serves a browser viewer for live inspection.
 
-The repository is intended to be published at:
-
-- [Grender-Server](https://github.com/shrtk/grender-server)
-
 ## License
 
 This project is licensed under the GNU General Public License v3.0 or later.
